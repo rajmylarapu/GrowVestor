@@ -1,6 +1,6 @@
-# 💼 SmartInvest Buddy
+# 💼 GrowVestor
 
-**SmartInvest Buddy** is an AI-powered web application that helps users make smart stock investment decisions. It allows users to search for companies, view financial growth data, and receive personalized investment suggestions based on their preferences.
+**GrowVestor** is an AI-powered web application that helps users make smart stock investment decisions. It allows users to search for companies, view financial growth data, and receive personalized investment suggestions based on their preferences.
 
 ---
 
