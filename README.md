@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# 💼 SmartInvest Buddy
 
-## Project info
+**SmartInvest Buddy** is an AI-powered web application that helps users make smart stock investment decisions. It allows users to search for companies, view financial growth data, and receive personalized investment suggestions based on their preferences.
 
-**URL**: https://lovable.dev/projects/6cc85581-e876-456e-9e23-f55136737b54
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 🔍 **Company Search** – Find and view detailed financial data of any listed company.
+- 📈 **Visual Financial Insights** – Interactive charts showing revenue, profit, PE ratio, EPS, and more.
+- 🤖 **AI Investment Suggestions** – Machine learning model predicts if you should Invest, Hold, or Avoid.
+- ⚠️ **Risk Analysis** – Get a risk score and risk factors based on company volatility and market data.
+- ⚖️ **Company Comparison** – Compare multiple companies side-by-side with performance graphs.
+- 📊 **Financial Calculators** – SIP calculator, return estimator, and risk tolerance checker.
+- 🧠 **Learning Resources** – Finance tips, tutorials, and videos for beginner investors.
+- 👤 **User Personalization** – Get suggestions tailored to your budget and investment interests.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6cc85581-e876-456e-9e23-f55136737b54) and start prompting.
+## 🏗️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+| Frontend        | Backend         | Machine Learning      | APIs & Data          | Database             |
+|-----------------|-----------------|------------------------|----------------------|----------------------|
+| React.js        | Flask / Node.js | Scikit-learn, BERT     | Yahoo Finance API    | Firebase Firestore   |
+| Tailwind CSS    | Express (alt.)  | Pandas, NumPy, XGBoost | Alpha Vantage (opt.) | MongoDB (optional)   |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧠 Machine Learning Models
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 1. Investment Decision Model
+- Inputs: Revenue, PE Ratio, EPS, Market Cap
+- Output: `Invest`, `Hold`, or `Avoid`
 
-Follow these steps:
+### 2. Risk Score Predictor
+- Inputs: Historical volatility, debt ratios, stock price behavior
+- Output: Risk score (0–100)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 3. News Sentiment Analyzer
+- Inputs: Latest news headlines
+- Output: Positive / Neutral / Negative sentiment
+- Model: BERT or TextBlob
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🔐 Authentication
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- Firebase Authentication for user login & registration
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📂 Folder Structure
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6cc85581-e876-456e-9e23-f55136737b54) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
